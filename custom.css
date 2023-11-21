@@ -1,0 +1,36 @@
+.toolbar-mainbar {
+    width: 35vw;
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 2 !important;
+    margin-left: 2rem;
+}
+
+#tabs-container {
+    margin-left: 35vw;
+}
+
+.toolbar-extensions {
+    position: fixed !important;
+    right: 7.2em !important;
+}
+
+.window-minimize,
+.window-maximize,
+.window-close {
+    width: 30px !important;
+    padding: 0 !important;
+}
+
+.win #tabs-container:not(.none).top {
+    padding-right: 7rem;
+    padding-left: unset !important;
+}
+
+.toolbar-mainbar {
+    margin-left: 0 !important;
+}
+
+.vivaldi {
+    display: none !important;
+}
