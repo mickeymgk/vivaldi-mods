@@ -4,9 +4,9 @@
 # Author: Mickeymgk, <https://t.me/mickeymgk/>
 #######################################################################
 
-#            users can now use vivaldi://experiments to change CSS in UI
+# users can now use vivaldi://experiments to change CSS in UI
 
-mod_dir=$HOME/path/to/dir
+mod_dir=$PWD
 
 vivaldi_installs=$(dirname $(find /opt -name "vivaldi-bin" )) ;
 vivaldi_install_dirs=( $vivaldi_installs ) ;
@@ -58,5 +58,5 @@ if [ -f "$mod_dir/mod.js" ] ; then
     echo copying custom.js
     sudo cp -f "$mod_dir/mod.js" "$dir/resources/vivaldi/mod.js"
 else
-    echo custom.js missing in $mod_dir
+    echo mod.js missing in $mod_dir
 fi
