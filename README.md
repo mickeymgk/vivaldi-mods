@@ -26,4 +26,4 @@ Vivaldi Mods is a custom CSS and JS modification for the Vivaldi browser designe
    - Under "CUSTOM UI MODIFICATIONS," select the folder where you cloned the repository.
 
 5. **Restart Your Browser:**
-   - Type `vivaldi://restart` in the address bar to restart your browser and apply the changes.
+   - Type `vivaldi://restart` in the address bar to restart your browser to apply the changes.
